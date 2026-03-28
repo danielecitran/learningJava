@@ -14,7 +14,9 @@ public class JavaInput {
         /*
         Der Unterschied von .next und .nextLine:
         Wenn der User z.B mehrere Wörter eingibt und man nur .next verwendet,
-        wird nur das erste Wort als input genommen und in der Variable gespeichert
+        wird nur das erste Wort als input genommen und in der Variable gespeichertm
+        die restlichen Wörter werden sozusagen zwischengespeichert und bei der nächsten "next" Abfrage
+        mitgenommen
         */
 
         System.out.println("Du heisst " + name + " und bist " + age + " Jahre alt.");
